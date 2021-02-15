@@ -113,6 +113,7 @@ img {
 
 .paragraph {
   font-size: 1.3rem;
+  padding: 2rem 0;
 }
 
 /* Styles header */
@@ -134,6 +135,10 @@ img {
   margin: 0;
 }
 
+.footer-logo {
+  width: 15rem;
+}
+
 .header-link {
   font-size: 1.2rem;
   color: var(--primary-pink);
@@ -147,7 +152,7 @@ img {
 }
 
 .community p {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   width: 100%;
   max-width: 40rem;
 }
@@ -267,6 +272,76 @@ img {
   display: none;
 }
 
+/* Section footer */
+.footer {
+  background-color: var( --neutral-dcyan);
+}
+
+.footer-container {
+  padding: 3rem 1.5rem;
+  padding-bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: var(--neutral-pblue);  
+}
+
+.footer-social {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  max-width: 500px;
+}
+
+.footer-social h2 {
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"] {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 15px 0px;
+}
+
+.button-form {
+  width: 50%;
+  border-radius: 8px;
+  align-self: flex-end;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.contact img {
+  padding-right: 1.5rem;
+  width: 50px;
+  height: 50%;
+}
+
+.link-social {
+  padding-top: 1.5rem;
+}
+
+.link-social a {
+  padding-right: 1rem;
+  font-size: 40px;
+  color: var(--neutral-pblue); 
+}
+
+.input[placeholder="email@address.com"] {
+  font-size: 1.25rem;
+  padding-left: 1rem;
+}
+
 @media screen and (min-width: 592px) {
   .community h1 {
     font-size: 2.5rem;
@@ -305,4 +380,13 @@ img {
   .bg-bootom-desktop {
     display: inline-block;
   }
+
+  .footer-container {
+    flex-direction: row-reverse;
+  }
+
+  .paragraph {
+    font-size: 1.42rem;
+  }
+  
   }
