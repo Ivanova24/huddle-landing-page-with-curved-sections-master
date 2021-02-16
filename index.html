@@ -43,7 +43,7 @@
   </head>
 
   <body>
-    <header class="header auto">
+    <header class="header horizontal-margin">
       <nav class="header-nav">
         <figure class="header-logo">
           <img src="images/logo.svg" alt="Site's logo" />
@@ -51,17 +51,17 @@
         <div><a href="#" class="header-link link">Try It Free</a></div>
       </nav>
 
-      <section class="community header">
+      <section class="community header vertical-margin">
         <h1>Build The Community Your Fans Will Love</h1>
-        <p class="auto paragraph">
+        <p class="horizontal-margin paragraph">
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <div><a href="#" class="link link-bg">Get Started For Free</a></div>
+        <div><a href="#" class="link link-bg box-shadow-1">Get Started For Free</a></div>
       </section>
 
-      <section class="header-img auto">
+      <section class="header-img horizontal-margin">
         <figure>
           <img src="images/screen-mockups.svg" alt="" />
         </figure>
@@ -69,15 +69,15 @@
     </header>
 
     <main>
-      <section class="stadistic header auto">
-        <div class="auto">
+      <section class="stadistic header horizontal-margin vertical-margin">
+        <div class="horizontal-margin">
           <figure>
             <img src="images/icon-communities.svg" alt="" />
           </figure>
           <p class="stadistic-number">1.4k+</p>
           <p class="stadistic-description">Communities Formed</p>
         </div>
-        <div class="auto">
+        <div class="horizontal-margin">
           <figure>
             <img src="images/icon-messages.svg" alt="" />
           </figure>
@@ -93,7 +93,7 @@
         <img src="images/bg-section-top-mobile-1.svg" alt="" />
       </div>
       <section class="section-info bg-color">
-        <div class="section-container header auto reverse">
+        <div class="section-container header horizontal-margin reverse">
           <figure class="section-image">
             <img src="images/illustration-grow-together.svg" alt="" />
           </figure>
@@ -115,7 +115,7 @@
       </div>
 
       <section class="section-info flowing">
-        <div class="section-container header auto row">
+        <div class="section-container header horizontal-margin row">
           <figure class="section-image">
             <img src="images/illustration-flowing-conversation.svg" alt="" />
           </figure>
@@ -137,7 +137,7 @@
         <img src="images/bg-section-top-mobile-2.svg" alt="bg-2" />
       </div>
       <section class="section-info bg-color">
-        <div class="section-container header auto reverse">
+        <div class="section-container header horizontal-margin reverse">
           <figure class="section-image">
             <img src="images/illustration-your-users.svg" alt="" />
           </figure>
@@ -158,17 +158,22 @@
         <img src="images/bg-section-bottom-desktop-2.svg" alt="bg" />
       </div>
 
-      <section class="community">
+      <section class="community vertical-margin">
         <h2>Ready To Build Your Community?</h2>
         <div>
-          <a href="#" class="link link-bg">Get Started For Free</a>
+          <a href="#" class="link link-bg box-shadow-1">Get Started For Free</a>
         </div>
       </section>
     </main>
 
-    <footer class="footer header auto">
+    <div class="bg-top bg-top-desktop">
+      <img src="images/bg-footer-top-desktop.svg" alt="bg-2" />
+    </div>
+    <div class="bg-top bg-top-mobile header horizontal-margin">
+      <img src="images/bg-footer-top-mobile.svg" alt="bg-2" />
+    </div>
+    <footer class="footer header horizontal-margin">
       <article class="footer-container">
-
         <section class="footer-social">
           <h2>newsletter</h2>
           <p class="paragraph">
@@ -176,8 +181,15 @@
             newsletter. We’ll never send you spam or pass on your email address.
           </p>
           <form action="#" class="form">
-            <input type="email" name="email" required placeholder="email@address.com"/>
-            <button class="link link-bg button-form">Subscribe</button>
+            <input
+              type="email"
+              name="email"
+              placeholder="email@address.com"
+              required
+            />
+            <div class="link-form">
+              <a href="#" class="link link-bg link-subscribe">Subscribe</a>
+            </div>
           </form>
         </section>
 
@@ -190,27 +202,27 @@
             nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
           </p>
 
-            <div class="contact">
-              <img src="images/icon-phone.svg" alt="icon-phone" />
-              <h3>Phone: +1-543-123-4567</h3>
-            </div>
+          <div class="contact">
+            <img src="images/icon-phone.svg" alt="icon-phone" />
+            <h3>Phone: +1-543-123-4567</h3>
+          </div>
 
-            <div class="contact">
-                <img src="images/icon-email.svg" alt="icon-email" />
-              <h3>example@company.com</h3>
-            </div>
-          
-            <div class="link-social">
-              <a href="#" class="icon-fab"
-                ><i class="fab fa-facebook-square"></i
-              ></a>
-              <a href="#" class="icon-fab"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="icon-fab"><i class="fab fa-twitter-square"></i></a>
-            </div>
+          <div class="contact">
+            <img src="images/icon-email.svg" alt="icon-email" />
+            <h3>example@company.com</h3>
+          </div>
+
+          <div class="link-social">
+            <a href="#" class="icon-fab"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+            <a href="#" class="icon-fab"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon-fab"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+          </div>
         </section>
-
       </article>
     </footer>
-
   </body>
 </html>
